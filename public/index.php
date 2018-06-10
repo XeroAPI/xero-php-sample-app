@@ -31,6 +31,9 @@ $container = new League\Container\Container();
  */
 $container->delegate(new ReflectionContainer());
 
+//Share the Session storage class across dependents
+$container->share(XeroSessionStorage::class);
+
 //Share the template engine into controllers instantiated by the container
 $container->share(Engine::class, function () {
     return new Engine(APP_ROOT . DS . 'src' . DS . 'templates', 'phtml');
