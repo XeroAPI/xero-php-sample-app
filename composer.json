@@ -3,6 +3,7 @@
   "description": "Xero sample app for PHP SDK",
   "type": "project",
   "require": {
+    "php": ">=5.5.0",
     "calcinai/xero-php": "^1.8",
     "zendframework/zend-diactoros": "^1.7",
     "league/route": "^3.0",
