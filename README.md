@@ -50,7 +50,7 @@ cd xero-php-sample-app/public
 php -S localhost:8999
 ```
 
-You should not be able to navigate to [http://localhost:8999](http://localhost:8999) and use the application.
+You should now be able to navigate to [http://localhost:8999](http://localhost:8999) and use the application.
 
 ### What isn't supported in the xero-php SDK?
 We couldn't find a way to demonstrate the following actions with the xero-php SDK.
