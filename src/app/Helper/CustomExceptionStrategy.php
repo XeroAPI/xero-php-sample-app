@@ -24,7 +24,7 @@ class CustomExceptionStrategy extends ApplicationStrategy
 
     public function getExceptionDecorator(\Exception $exception)
     {
-        if ($exception instanceof Exception && $exception >= 100 && $exception <= 500) {
+        if ($exception instanceof Exception && $exception->getCode() >= 100 && $exception->getCode() <= 500) {
             $code = $exception->getCode();
         } else {
             $code = 500;
