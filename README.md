@@ -1,5 +1,11 @@
-# xero-php sample app
+# xero-php sample app (deprecated)
 
+## OAuth1.0a deprecation
+* Early December 2019 - No new OAuth 1.0a apps created.
+* Mid December 2019 - OAuth 2.0 migration endpoint available to partner apps.
+* December 2020 - OAuth 1.0a no longer supported for existing integrations.
+
+------------------------------------
 This is a sample app for the xero-php SDK. Currently, this app focuses on demonstrating the functionality of all Accounting API endpoints and their related actions.  
 
 You'll be able to connect to a Xero Organisation and make real API calls. The code used to make each API call will be displayed along with the results returned from Xero's API.
